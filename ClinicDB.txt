@@ -1,0 +1,56 @@
+CREATE TABLE CLINIC(
+    ClinicID char(5) NOT NULL,
+    Phone    varchar(10),
+    Street   char(20),
+    City     char(15),
+    State    char(2),
+    Zip      char(5),
+    PRIMARY KEY (ClinicID)
+);
+
+CREATE TABLE EMPLOYEE(
+    EmployeeID  varchar(5) NOT NULL,
+    FName       varchar(20),
+    LName       varchar(20),
+    PRIMARY KEY (EmployeeID)
+);
+
+CREATE TABLE NURSE(
+    EmployeeID char(5) NOT NULL,
+    Position   varchar(10),
+    PRIMARY KEY (EmployeeID)
+);
+
+CREATE TABLE DOCTOR(
+    EmployeeID char(5) NOT NULL,
+    Medical_Degree varchar(10),
+    Specialty  varchar(10),
+    PRIMARY KEY (EmployeeID)
+);
+
+CREATE TABLE FRONT_DESK_TECH(
+    EmployeeID char(5) NOT NULL,
+    WPM        varchar(5),
+    PRIMARY KEY (EmployeeID)
+);
+
+CREATE TABLE PATIENT(
+    SSN char(9) NOT NULL,
+    DOB date,
+    FName varchar(20),
+    LName varchar(20),
+    PRIMARY KEY (SSN)
+);
+
+CREATE TABLE WORKS (
+    EmployeeID		char(5)     NOT NULL,
+    ClinicID		char(5)	    NOT NULL,
+    Date_Started	date,
+    Primary Key (EmployeeID, ClinicID),
+    FOREIGN KEY (EmployeeID) REFERENCES EMPLOYEE(EmployeeID)
+    FOREIGN KEY (ClinicID)   REFERENCES ClINIC(ClinicID)
+
+);
+
+CREATE TABLE DIAGNOSE
+
