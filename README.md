@@ -3,7 +3,7 @@ Deliverable 3 of CSC 174 Final Project with Prof. Kathy
 
 # Tasks:
 @Malik
-- [ ] Clean up the backend and the front end files so they only meet the requirments of deliverable 3 and push it to the Git. 
+- [ ] Clean up the backend and the frontend files so they only meet the requirments of deliverable 3 and push it to the Git. 
 - [ ] Include comments in the files where you feel they are needed to explain the code.
 
 @Nav
