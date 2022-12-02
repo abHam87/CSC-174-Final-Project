@@ -1,18 +1,16 @@
 # CSC-174-Final-Project
-Deliverable 3 of CSC 174 Final Project with Prof. Kathy
+Here is the final deliverable of our semester-long project for CSC 174 with Professor Applebaum. We have created a simple website that allows the user access to view the CLINIC table in our ClinicDB. Not only that, but the user can also add data to the ClinicID column and see those changes made instantly on the website once they hit submit. This was achieved using JSP for the front-end, Java & MySQL for the back-end, and Heroku to host our database and website.
 
 # Tasks:
-@Malik
-- [ ] Clean up the backend and the frontend files so they only meet the requirments of deliverable 3 and push it to the Git. 
+@Malek
+- [ ] Clean up the back-end and front-end files so they only meet the requirements of deliverable 3 and push it to GitHub. 
 - [ ] Include comments in the files where you feel they are needed to explain the code.
 
 @Nav
-- [ ] Make sure that we have all the files that are required for deliverable 3, sql, java, html, etc.. and that they are all uploaded to the Git.
-
-- [ ] Work with Malik in cleaning up and formatting the code in case he needed any help.
+- [ ] Make sure that we have all the files that are required for deliverable 3, SQL, Java, JSP, etc.. and that they are all uploaded to GitHub.
+- [ ] Work with Malek in cleaning up and formatting the code.
 
 @Abdullah
-- [ ] Test the website and make sure everything is working as expected. 
-- [ ] Provide the full path to our files that handles our SQL statments, Java code in the ReadMe file. 
-- [ ] Submit the URL to our github and the URL to our website. 
-    
+- [ ] Test the website and make sure everything is working as expected.
+- [ ] Provide the full path to our files that handles our SQL statements and Java code in the ReadMe file.
+- [ ] Submit the URL's to both our GitHub and website.
