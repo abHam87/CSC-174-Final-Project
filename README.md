@@ -3,14 +3,17 @@ Here is the final deliverable of our semester-long project for CSC 174 with Prof
 
 # Tasks:
 @Malek
-- [ ] Clean up the back-end and front-end files so they only meet the requirements of deliverable 3 and push it to GitHub. 
-- [ ] Include comments in the files where you feel they are needed to explain the code.
+- [x] Clean up the back-end and front-end files so they only meet the requirements of deliverable 3 and push it to GitHub. 
+- [x] Include comments in the files where you feel they are needed to explain the code.
 
 @Nav
-- [ ] Make sure that we have all the files that are required for deliverable 3, SQL, Java, JSP, etc.. and that they are all uploaded to GitHub.
-- [ ] Work with Malek in cleaning up and formatting the code.
+- [x] Make sure that we have all the files that are required for deliverable 3, SQL, Java, JSP, etc.. and that they are all uploaded to GitHub.
+- [x] Work with Malek in cleaning up and formatting the code.
 
 @Abdullah
-- [ ] Test the website and make sure everything is working as expected.
-- [ ] Provide the full path to our files that handles our SQL statements and Java code in the ReadMe file.
-- [ ] Submit the URL's to both our GitHub and website.
+- [x] Test the website and make sure everything is working as expected.
+- [x] Provide the full path to our files that handles our SQL statements and Java code in the ReadMe file.
+- [x] Submit the URL's to both our GitHub and website.
+
+
+# File Paths:
