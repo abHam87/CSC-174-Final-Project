@@ -1,5 +1,5 @@
 # CSC-174-Final-Project
-Here is the final deliverable of our semester-long project for CSC 174 with Professor Applebaum. We have created a simple [website](https://nameless-atoll-88208.herokuapp.com/clinic/clinicData) (If 404 Error page appears, refresh the page a few times) that allows the user access to view the CLINIC table in our ClinicDB. Not only that, but the user can also add data to the ClinicID column and see those changes made instantly on the website once they hit submit. This was achieved using JSP for the front-end, Java & MySQL for the back-end, and Heroku to host our database and website.
+Here is the final deliverable of our semester-long project for CSC 174 with Professor Applebaum. We have created a simple [website](https://nameless-atoll-88208.herokuapp.com/clinic/clinicData) (If 404 error page appears, please try backing out and reopening link) that allows the user access to view the CLINIC table in our ClinicDB. Not only that, but the user can also add data to the ClinicID column and see those changes made instantly on the website once they hit submit. This was achieved using JSP for the front-end, Java & MySQL for the back-end, and Heroku to host our database and website.
 
 # File Paths:
 - Path containing INSERT and SELECT statements: 
