@@ -3,7 +3,7 @@ Here is the final deliverable of our semester-long project for CSC 174 with Prof
 
 # File Paths:
 - Path containing INSERT and SELECT statements: 
-    - [clinic/src/main/java/academy/learnprogramming/model/DataSource.java]([https://github.com/abHam87/CSC-174-Final-Project/tree/main/clinic/src/main/java/academy/learnprogramming/model](https://github.com/abHam87/CSC-174-Final-Project/blob/main/clinic/src/main/java/academy/learnprogramming/model/DataSource.java))
+    - [clinic/src/main/java/academy/learnprogramming/model/DataSource.java](https://github.com/abHam87/CSC-174-Final-Project/blob/main/clinic/src/main/java/academy/learnprogramming/model/DataSource.java)
 - Path containing SQL code: 
     - [clinic/Group11ClinicDB.sql](https://github.com/abHam87/CSC-174-Final-Project/blob/main/clinic/Group11ClinicDB.sql)
 
