@@ -1,3 +1,4 @@
+-- Code to create all tables used in our ClinicDB
 CREATE TABLE CLINIC(
     ClinicID INT(5) NOT NULL,
     Phone    VARCHAR(10),
@@ -71,6 +72,7 @@ CREATE TABLE DIAGNOSE(
         REFERENCES PATIENT(SSN)
 );
 
+-- Triggers that handle any form of INSERT, UPDATE, or DELETE statements within the DOCTOR, NURSE and FRONT_DESK_TECH tables
 DELIMITER $$
 CREATE TRIGGER DOCTOR_INSERT
 BEFORE INSERT ON DOCTOR
@@ -216,6 +218,7 @@ BEFORE DELETE ON FRONT_DESK_TECH
         END IF;
     END $$
 
+-- Simple function that checks if the front desk employees have a high enough WPM count for the job
 CREATE FUNCTION CheckWPM(WPM INT) RETURNS VARCHAR(255)
     BEGIN
         IF WPM >= 60 THEN RETURN 'Congrats! You are qualified for the Front Desk job.';
